@@ -1,0 +1,17 @@
+{
+  "name": "mermaid-to-excalidraw-skill",
+  "version": "1.0.0",
+  "description": "Script to compile Mermaid diagrams into standard .excalidraw JSON files.",
+  "main": "compile.js",
+  "type": "module",
+  "scripts": {
+    "start": "node compile.js"
+  },
+  "dependencies": {
+    "@excalidraw/mermaid-to-excalidraw": "latest",
+    "dompurify": "^3.2.3",
+    "esbuild": "^0.28.1",
+    "jsdom": "^24.1.0",
+    "puppeteer": "^25.2.1"
+  }
+}
